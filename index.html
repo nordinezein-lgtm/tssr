@@ -5,7 +5,29 @@
     <title>TSSR</title>
     <link rel="icon" type="image/png" href="OIP.jpg">
 </head>
-<body>
+
+<body style="background-color: #0b0e14; color: white; font-family: sans-serif; text-align: center;">
+
+    <div id="contenu-prive" style="display: none;">
+        
+        <nav> ... ton menu ... </nav>
+        <h1>bibliothèque technique</h1>
+        <img src="kali-linux.jpg">
+        </div> 
+    <script>
+        const motDePasseCorrect = "TSSR2024";
+        let tentative = prompt("Accès sécurisé : Veuillez entrer le mot de passe");
+
+        if (tentative === motDePasseCorrect) {
+            document.getElementById('contenu-prive').style.display = 'block';
+            alert("Accès autorisé !");
+        } else {
+            alert("Accès refusé !");
+            window.location.href = "https://www.google.com";
+        }
+    </script>
+
+
     <body style="text-align: center;"></body>
 <nav style="background-color: #1a1a1a; padding: 15px; text-align: center; border-bottom: 2px solid cyan;">
     <a href="#accueil" style="color: white; margin: 0 20px; text-decoration: none; font-weight: bold;">🏠 Accueil</a>
