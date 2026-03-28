@@ -7,6 +7,14 @@
 </head>
 <body>
     <body style="text-align: center;"></body>
+<nav style="background-color: #1a1a1a; padding: 15px; text-align: center; border-bottom: 2px solid cyan;">
+    <a href="#accueil" style="color: white; margin: 0 20px; text-decoration: none; font-weight: bold;">🏠 Accueil</a>
+    <a href="#propos" style="color: white; margin: 0 20px; text-decoration: none; font-weight: bold;">👤 À Propos</a>
+    <a href="#cours" style="color: white; margin: 0 20px; text-decoration: none; font-weight: bold;">📚 Mes Cours</a>
+</nav>
+
+<div id="accueil"></div>
+<body style="background-color: #0b0e14; color: white; font-family: sans-serif;"></body>
 
 <h1>
     bibliothèque technique
@@ -17,9 +25,23 @@
 <h3>comment ça va aujourd'hui</h3>
 <p>Je suis en train d'apprendre le <strong>HTML</strong> !</p>
     <p>C'est ma <em>première</em> modification.</p>
-    
+
 
     <img src="kali-linux.jpg" alt="Icône" width="400" height="200">
+
+    
+
+<div id="propos" style="background-color: #0a0a20; padding: 60px 20px; color: white; line-height: 1.8; margin-top: 40px; border-top: 2px solid cyan;">
+    <h2 style="color: cyan; text-align: center; margin-bottom: 30px;">À propos de moi</h2>
+    <p style="max-width: 800px; margin: 0 auto; text-align: center; font-size: 1.1em; background: rgba(0, 212, 255, 0.1); padding: 20px; border-radius: 10px;">
+        Bonjour ! Je m'appelle <strong>Nordine</strong>. <br>
+        Je suis actuellement en formation <strong>TSSR</strong> (Technicien Supérieur Systèmes et Réseaux). 
+        Passionné par l'informatique, ce site me sert de portfolio pour regrouper mes cours, 
+        mes travaux pratiques sur Linux et mes projets de technicien réseaux.
+    </p>
+    
+</div>
+<hr style="border: none; border-top: 2px solid cyan; width: 100%; margin: 20px 0; opacity: 0.8;">
 
   <style>
   body {
@@ -34,6 +56,36 @@
     text-shadow: 0 0 10px #00d4ff; /* Petit effet de lueur bleue autour du titre */
   }
 </style>  
+
+<div id="cours" style="background-color: #161b22; padding: 40px 20px; border-radius: 15px; margin: 30px auto; max-width: 900px; border: 1px solid #30363d; text-align: center;">
+   
+    
+    <h2 style="color: #58a6ff; margin-bottom: 25px;">📚 Mes Documents de Formation</h2>
+
+    <p style="margin: 15px 0;">
+        <a href="Documents/cours-reseau.pdf" target="_blank" style="color: white; text-decoration: none; font-size: 1.1em;">📄 Cours Réseau</a>
+    </p>
+
+    <p style="margin: 15px 0;">
+        <a href="Documents/tp-linux.pdf" target="_blank" style="color: white; text-decoration: none; font-size: 1.1em;">📄 TP Linux</a>
+    </p>
+
+    <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #30363d;">
+        <h3 style="color: #f0883e;">ECF2 1b Groupe1</h3>
+        
+        <p style="margin: 15px 0;">
+            <a href="ECF2%201b%20Groupe1/ton-fichier.pdf" target="_blank" style="color: #ffcc00; text-decoration: none; font-weight: bold;">📄 Voir mon document ECF (PDF)</a>
+        </p>
+
+        <p style="margin: 20px 0;">
+            <a href="ECF2%201b%20Groupe1.zip" download style="background-color: #238636; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; display: inline-block;">
+                📥 Télécharger tout le dossier ECF (ZIP)
+            </a>
+        </p>
+    </div>
+</div>
+
+
 
 <p><a href="Documents/cours1.pdf" target="_blank" style="color: white;">📄 Cours Réseau</a></p>
 <p><a href="Documents/tp2.pdf" target="_blank" style="color: white;">📄 TP Linux</a></p>
